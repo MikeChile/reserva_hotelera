@@ -1,0 +1,21 @@
+
+body{
+    background-image: url(https://s1.1zoom.me/b5050/744/330559-moril_1920x1080.jpg);
+    background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.cajaForm{
+    background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  backdrop-filter: blur(20px);
+}
+#noti{
+    color: #3d3d3d;
+}

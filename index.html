@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <title>Ejercicio de comprobación</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row my-4">
+            <div class="col text-center">
+                <h1>Ejercicio de comprobación</h1>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col col-md-6">
+                <div class="cajaForm p-4">
+                    <div class="row">
+                        <div class="col my-4 text-center">
+                            <h2>RESERVA UNA HORA</h2>
+                        </div>
+                    </div>
+                    <form id="reservaForm">
+                        <div class="row">
+                            <div class="col mb-2">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" name="nombre" class="form-control" id="nombre">
+                            </div>
+                            <div class="col mb-2">
+                                <label for="apellido" class="form-label">Apellido</label>
+                                <input type="text" name="apellido" class="form-control" id="apellido">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2">
+                                <label for="correo" class="form-label">Correo <span id="noti">(te notificaremos aqui)</span></label> 
+                                <input type="email" name="correo" class="form-control" id="correo">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2">
+                                <label for="edad" class="form-label">Edad</label>
+                                <input type="number" name="edad" class="form-control" id="edad">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-2">
+                                <label for="fecha" class="form-label">Fecha</label>
+                                <input type="date" name="fecha" class="form-control" id="fecha">
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col text-center">
+                                <button type="button" class="btn btn-primary"><i class='bx bx-send'></i> Enviar</button>
+                                <button type="button" id="agregarCampoBtn" class="btn btn-secondary"><i class='bx bx-message-square-add' ></i> Agregar Campo</button>
+                                <button type="button" id="mostrarAtributosBtn" class="btn btn-info"><i class='bx bx-show-alt' ></i> Mostrar Atributos</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
